@@ -4,30 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" class="css">
-    <title>Chai</title>
+    <title>3D Gas Stove</title>
+    <link rel="stylesheet" href="Styles.css">
 </head>
 
 <body>
-        <div class="images_container">
-            <div class="pan">
-                <img src="Images/Pan.png" class="pan_img">
-            </div>
-            <div id="burner_flame">
-                <div class="flame small-flame"></div>
-                <div class="flame large-flame"></div>
-            </div>
-            <div class="stove">
-                <img src="Images/Stove.png" class="stove_img">
-            </div>
+     <div class="container">
+        <div class="pan"></div>
+        <div class="top"></div>
+        <div class="circle">
+            <div class="tea"></div>
         </div>
-    <label id="switch">
-        <input type="checkbox" id="switch">
-        <span class="slider"></span>
-    </label>
+        <div class="handle"></div>
+    </div> 
+    <div class="stove-container">
+        
+         <div class="burner left">
+            <div class="inner-ring"></div>
+            <div class="flame"></div>
+        <div class="outer-ring"></div>
+        <div class="stand">
+          <div class="small-stand"></div>
+          <div class="small-stand"></div>
+          <div class="small-stand"></div>
+          <div class="small-stand"></div>
 
-
-
+        </div>
+          </div>
+          <div class="burner right">
+            <div class="inner-ring"></div>
+            <div class="flame"></div>
+            <div class="outer-ring"></div>
+            <div class="stand">
+              <div class="small-stand"></div>
+              <div class="small-stand"></div>
+              <div class="small-stand"></div>
+              <div class="small-stand"></div>
+            </div>
+          </div>
+        <div class="controls">
+            <!-- <button class="button" id="toggleButton">On</button> -->
+        </div>
+        
+    </div>
+    <div class="stove-container2">
+        <div class="regulator" data-burner="1"></div>
+        <div class="regulator" data-burner="2"></div>
+    </div>
+    <div class="stove-container3">
+    </div>
+    <div class="stove-container4">
+    </div>
+    <!-- <div class="regulator" data-burner="1"></div>
+    <div class="regulator" data-burner="2"></div> -->
     <script src="Chai.js"></script>
 </body>
 
